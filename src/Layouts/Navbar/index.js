@@ -26,7 +26,7 @@ function Navbar() {
                 <ul>
                     <li><NavLink className="navlink" to='/'>Home</NavLink></li>
                     <li><NavLink className="navlink" to='/about'>About</NavLink></li>
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                 </ul>
             </div>
         </nav>
