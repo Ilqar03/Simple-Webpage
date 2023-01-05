@@ -26,12 +26,12 @@ main{
                 width: 200px;
                 height: 50px;
                 position: fixed;
-                border: 2px solid blue;
-                color: blue;
+                border: 2px solid #0085A1;
+                color: #0085A1;
                 font-weight: 500;
                 font-size: 15px;
                 &:hover{
-                    background-color: blue;
+                    background-color: #0085A1;
                     color: white;
                 }
             }
@@ -65,9 +65,9 @@ main{
         flex-direction: column;
         gap: 30px;
         margin: 0 auto;
-        h2 , h4 {
+        .h{
             &:hover{
-                color: blue;
+                color: #0085A1;
             }
 
         }
@@ -86,7 +86,7 @@ main{
                 cursor: pointer;
                font-size: 50px;
                &:hover{
-                color: blue;
+                color: #0085A1;
                }
             }
           }
